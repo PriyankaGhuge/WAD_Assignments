@@ -1,0 +1,22 @@
+div{
+    text-align: center;
+}
+
+input{
+ height: 25px;
+ border-radius: 15px;
+}
+
+.container{
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 1.5px solid  rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;  
+}
+
+a:hover{
+    color: red;
+}

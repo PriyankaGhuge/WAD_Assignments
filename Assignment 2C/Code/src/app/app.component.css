@@ -1,0 +1,42 @@
+h1,
+nav {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  padding: 10px;
+  border: 0.5px black solid;
+  margin-right: 15px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+}
+
+div {
+  width: 40%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+a:link {
+  color: green;
+  /* background-color: transparent; */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(177, 177, 177);
+  text-decoration: none;
+}
