@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>OCC App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/custom_style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+
+	<div data-role="page" id="home">
+		<div data-role="footer" data-theme="a">
+			<h1>MyWebsite</h1>
+			<a href="#tech"
+				class="ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-right ui-btn-icon-notext ui-corner-all">Next</a>
+		</div>
+
+		<div data-role="content">
+			<div>
+				<h1 id="showcase_title">Learn and Grow More</h1>
+				<p id="showcase_title">Develop a Passion for Learning,
+					You will Never Cease to Grow.</p><br>
+			</div>
+
+			<div class="hero_section">
+				
+				<div class="ui-block-b animated slideInUp">
+					<div class="categories">
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Web Development</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Software</a>			
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Design Thinking</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Big Data</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Marketing</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Content Writing</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Artificial Learning</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Graphics</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Technology</a>
+						<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Robotics</a>
+					</div>
+				</div>
+
+				<div class="">
+					<img class="img" src="./pics/img1.png">
+					<!-- id="homepic" class="animated" -->
+				</div>
+			</div>
+		</div>
+
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#tech" data-icon="grid">Technologies</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!---The video panel page -->
+	<div data-role="page" id="tech">
+
+		<div data-role="header" data-theme="a">
+			<h1>MyWebsite</h1>
+			<a href="#About"
+				class="ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-right ui-btn-icon-notext ui-corner-all">next</a>
+
+			<a href="#home" title="Back"
+				class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-left ui-btn-icon-notext ui-corner-all">back</a>
+		</div>
+
+		<div data-role="content">
+			<h1>Top categories</h1>
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search Something...."
+				class="animated slideInLeft" id="vid_list">
+				<li><a href=""><img src="pics/html2.png">HTML
+						<p>The language used to create webpages</p>
+						<p>It's very easy to learn</p>
+
+					</a>
+				</li>
+
+				<li><a href=""><img src="pics/css.png">CSS
+						<p>The language used to design webpages</p>
+						<p>It's very easy to learn</p>
+
+					</a>
+				</li>
+
+				<li><a href=""><img src="pics/javascript.png">JAVASCRIPT
+						<p>The language used to make webpages dynamic.</p>
+						<p>It's very easy to learn</p>
+
+					</a>
+				</li>
+
+				<li><a href=""><img src="pics/jquery.png">JQUERY
+						<p>The js library used to make javascript More easily to work with .</p>
+						<p>Write less,Do more</p>
+						<p>It's very easy to learn</p>
+
+					</a>
+				</li>
+
+
+				<li><a href=""><img src="pics/jquery_UI.png">JQUERY UI
+						<p>The js library used to make User interface nice looking.Moreso easily to work with .</p>
+						<p>Write less,Do more</p>
+						<p>It's very easy to learn</p>
+
+					</a></li>
+
+				<li><a href=""><img src="pics/bootstrap.png">BOOTSTRAP
+						<p>The html,css and javasript Framework used to create responsive websites.</p>
+						<p>It's very easy to learn</p>
+
+					</a>
+				</li>
+
+				<li><a href=""><img src="pics/C prog.png">C PROGRAMMING
+						<p>The Language used to develop softwares and Operating systems .</p>
+						<p>It's very easy to learn</p>
+
+					</a></li>
+
+				<li><a href=""><img src="pics/windows.png">WINDOWS COMMANDLINE
+						<p>It's a windows program that allows the user to naviagte the computer without using a mouse .
+						</p>
+						<p>It's very easy to learn</p>
+					</a></li>
+			</ul>
+
+		</div>
+
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#tech" data-icon="grid">Technologies</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- About Page -->
+	<div data-role="page" id="About">
+
+		<div data-role="header" data-theme="a">
+			<h1>MyWebsite</h1>
+			<a href="#tech" title="Back"
+				class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-left ui-btn-icon-notext ui-corner-all">back</a>
+		</div>
+
+		<div data-role="content" class="animated bounce">
+			<div class="main_content">
+				<!-- <center><h1>About MyWebsite</h1></center> -->
+				<p class="text_secondary">
+					We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our
+					curated collection of business and technical courses help companies, governments, and nonprofits
+					go further by placing learning at the center of their strategies.
+				</p>
+			</div>
+
+			<div data-role="collapsible">
+				<h1>Features</h1>
+				<ul data-role="listview" class="animated slideInRight">
+					<li>Course Completion certificate</li>
+					<li>Quizzes</li>
+					<li>24/7 Guidance support</li>
+					<li>Practice and revisea</li>
+					<li>Learn anytime, anywhere</li>		
+				</ul>
+			</div>
+
+			<div>
+				<img class="banner_img" src="./pics/about.jpg">
+			</div>
+		</div>
+
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#tech" data-icon="grid">Technologies</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
